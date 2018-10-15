@@ -302,7 +302,7 @@ type Obj = {
 }
 ('Jon': $ElementType<Obj, 'name'>);
 (42: $ElementType<Obj, 'age'>);
-(true: $ElementType<Obj, 'name'>); // Nope, `name` is not a boolean
+(true: $ElementType<Obj, 'name'>); // Nope, `name` is not a string
 (true: $ElementType<Obj, 'other'>); // Nope, property `other` is not in Obj
 
 // Using tuples:
